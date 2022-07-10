@@ -3,9 +3,19 @@
   width: 1400px;
   background-position: center;
   padding: 150px 0;
-  margin: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-top: 80px;
   border-radius: 8px;
   box-shadow: 5px 5px 10px black;
+}
+
+.banner-kid{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6) ;
+  padding-left: 10px;
+
 }
 
 .banner h1 {
