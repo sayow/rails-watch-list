@@ -1,7 +1,11 @@
 .banner {
-  background-size: cover;
+  height: 40px;
+  width: 1400px;
   background-position: center;
   padding: 150px 0;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px black;
 }
 
 .banner h1 {
@@ -9,7 +13,8 @@
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
-  font-weight: bold;
+  font-family: 'Limelight', cursive;
+  justify-items: auto;
 }
 
 .banner p {
@@ -17,4 +22,5 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: 'Limelight', cursive;
 }
