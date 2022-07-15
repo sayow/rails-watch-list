@@ -1,10 +1,14 @@
+.container{
+  display: flex
+
+}
+
+
+
 .bg{
 	background-size: cover;
   background-image: asset-url("anika-mikkelson-dWYjy9zIiF8-unsplash.jpg");
   background-color: rgba(113, 54, 25, 0.3) ;
-
-
-
   width: 100%;
   height: auto;
 
