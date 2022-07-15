@@ -12,3 +12,6 @@ import "bootstrap"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+import "/home/sayonara/code/sayow/rails-watch-list/app/assets/js/navbar.js"
+import "/home/sayonara/code/sayow/rails-watch-list/app/assets/js/test.js"
