@@ -12,3 +12,5 @@ import "bootstrap"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+require = /home/sayonara/code/sayow/rails-watch-list/app/assets/js/navbar.js

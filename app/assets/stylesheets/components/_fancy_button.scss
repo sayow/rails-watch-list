@@ -1,12 +1,14 @@
 html,body{
   height:100%;
 }
+
 body{
   text-align:center;
   margin-top:10vw;
   background-size:cover;
   overflow:hidden
 }
+
 .fancy-button{
   display:inline-block;
   position:relative;
@@ -16,9 +18,15 @@ body{
   font-family: 'Limelight', cursive;
   font-size:30px;
   text-decoration:none;
-  margin:10px auto;
-  transition: color 0.4s
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  transition: color 0.4s;
+  background-color: rgba(124, 99, 83, 0.7);
+  text-shadow: 1px 1px 1px white;
 }
+
 .fancy-button:after{
   content:" ";
   border:2px solid rgba(0,0,0,0);
@@ -33,21 +41,20 @@ body{
   margin:auto;
   transition:all 0.4s;
 }
+
 .fancy-button:hover{
   color:rgb(255, 255, 255)
 }
+
 .fancy-button:hover:after{
   border:2px solid rgb(255, 255, 255);
   width: calc(100% - 10px);
   height: calc(100% + 10px);
 }
 
-
-
-/* follow me @nodws */
 #button-twtr{
   clear:both;
-  color:#fff;
+  color:rgb(0, 0, 0);
   border:2px solid;
   border-radius:3px;
   text-align:center;
@@ -62,9 +69,13 @@ body{
   background:rgba(0,0,0,0.2);
   box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
   opacity:0.6
-}#button-twtr:hover{color:#fff;opacity:1}
+}
+
+#button-twtr:hover{
+  color:#fff;opacity:1
+}
 
 a {
-  color: #ffffff;
+  color: rgb(33, 16, 5);
   text-decoration: none;
 }
