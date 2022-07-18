@@ -1,22 +1,26 @@
 <%= render 'shared/navbar' %>
 
-<div class="flex-column d-flex justify-content-evenly">
+<body class="bg">
+  <div class="container">
 
-  <div class="banner background grain outer-scratch">
-    <div class="h1-1 glitch"> Your Beautiful </div>
-    <p class="glitch">and fancy</p>
-    <div class="h1-2 glitch inner-scratch">Movie's List App</div>
-  </div>
+      <div class="flex-column d-flex justify-content-evenly">
 
-  <button class="fancy-button">
-    <%= link_to "Make a New List", new_list_path %>
-    <div class="button__horizontal"></div>
-    <div class="button__vertical"></div>
-  </button>
+        <div class="banner grain outer-scratch">
+          <div class="h1-1 glitch"> Your Beautiful </div>
+          <p class="glitch">and fancy</p>
+          <div class="h1-2 glitch inner-scratch">Movie's List App</div>
+        </div>
 
-</div>
+        <button class="fancy-button">
+          <%= link_to "New List", new_list_path %>
+          <div class="button__horizontal"></div>
+          <div class="button__vertical"></div>
+        </button>
+
+      </div>
+    </div>
 
 
-
+</body>
 
 <%= render 'shared/footer' %>
